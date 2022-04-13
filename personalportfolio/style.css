@@ -5,18 +5,27 @@ body{
     
     border-radius: 50%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+    margin-left: ;
+    margin-right:;
+    width: 30%;
   
 }
+.container img {
+    float: left;
+    max-width: 100px;
+    width: 100%;
+    margin-right: 30%;
+    border-radius: 50%;
+  }
+
+  
 .am{
-    background-color: rgb(27, 127, 94);
+    background-color: rgb(49, 221, 164);
     margin-left: auto;
     padding: 10px 30px;
 }
 .ss{
-    background-color: rgb(27, 127, 94);
+    background-color: rgb(23, 209, 147);
     margin-left: auto;
     padding: 10px 30px;
 }
@@ -29,11 +38,11 @@ p{
     text-align: justify;
 }
 h1{
-    text-align: center;
+    text-align:start;
 }
 .highlight{
     font-weight: 700;
-    color: forestgreen;
+    color: aquamarine;;
 }
 h1, h2{
     font-weight: 400;
@@ -46,12 +55,23 @@ ul li{
 }
 .table, .th, .td, .tr{
     border: 1px solid rgb(211, 190, 157);
-    background-color:blueviolet;
+    background-color:rgb(98, 199, 199);
     width: 100%;
 }
 .CM{
-    background-color: rgb(27, 127, 94);
+    background-color: rgb(22, 223, 179);
     margin-left: auto;
     padding: 10px 30px;
 
 }
+#main {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+  }
+  #main div {
+    -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+  }
+  
